@@ -35,4 +35,5 @@ I decided to test myself into makeing a digital menu for a restaurant of my own 
 ## Deploy 🚀
 
 <div align="center">
-COMMING SOON!
+Hope you like it, here is the
+ <a href="https://fran1893.github.io/restaurant_menu/" target="_blank">Url with the demo!!</a></div>
