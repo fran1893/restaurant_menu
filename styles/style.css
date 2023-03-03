@@ -5,3 +5,7 @@
     right: 0;
     left: 0;
 }
+
+.plates_row, .plates_col{
+    margin-top: 10px;
+}
