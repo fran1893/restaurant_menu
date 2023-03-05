@@ -29,11 +29,21 @@ I decided to test myself into makeing a digital menu for a restaurant of my own 
  </div>
  
 ## Views
-   COMMING SOON!
 <br>
+Logo:
+<img src="./media/black-full-logo.svg">  
+Icon:
+<img src="./media/ICONO_COCINA CHARRUA.png">
+<br><br>
+Home:
+<img src="./media/home-screenshot.png">
+<br><br>
+Menu:
+<img src="./media/mobile-menu.png">
+<br><br>
 
 ## Deploy 🚀
 
 <div align="center">
-Hope you like it, here is the
- <a href="https://fran1893.github.io/restaurant_menu/" target="_blank">Url with the demo!!</a></div>
+WARNING!! if you see this demo you would get hungry!!<br>
+ <a href="https://fran1893.github.io/restaurant_menu/" target="_blank">Url with the demo</a></div>
