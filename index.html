@@ -15,6 +15,12 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;800&family=Playfair+Display:ital,wght@1,400;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
@@ -49,21 +55,80 @@
         </div>
       </div>
     </nav>
-    <h1 class="text-center display-1">
-      ¡Bienvenidos!
-    </h1>
-    <img
-        src="./media/LOGO_COCINA CHARRUA.png"
-        alt="cocina charrua"
-        class="img-fluid image_top_home"
-      />
+    <!--Home content-->
+    <div class="home-welcome-wrapper">
+      <h1 class="text-center display-1 welcome-title-home">¡Bienvenidos!</h1>
+      <a href="./menu.html">
+        <button type="button" class="btn btn-secondary btn-lg">Ver Menú</button>
+      </a>
+    </div>
     <div class="container home_introduction">
+      <h1 style="font-weight: 800">La mejor carne a la brasa en Barcelona</h1>
       <p class="lead paragraph_introduction">
-        Nos enorgullece ser un restaurante especializado en la mejor carne a la
-        parrilla de Uruguay. Nuestro menú ofrece una amplia variedad de cortes
-        de carne cuidadosamente seleccionados y preparados por nuestro equipo de
-        expertos parrilleros.
+        Nos enorgullece ser un restaurante especializado en
+        <strong> la mejor carne a la parrilla de Uruguay.</strong>
       </p>
+
+      <p class="lead paragraph_introduction">
+        Nuestro menú ofrece una amplia variedad de cortes de carne
+        cuidadosamente seleccionados y preparados por nuestro equipo de expertos
+        parrilleros.
+      </p>
+
+      <!--Carousel-->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./media/napolitana.jpg"
+              class="d-block w-100"
+              alt="napolitana"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./media/chivito.jpg"
+              class="d-block w-100"
+              alt="chivito"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./media/choripan.jpg"
+              class="d-block w-100"
+              alt="choripan"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h2 style="margin-top: 20px">
+        <strong
+          >En Cocina Charrua ofrecemos una variedad de platos a la
+          parrilla</strong
+        >
+      </h2>
       <p class="lead paragraph_introduction">
         Desde el clásico asado hasta la suculenta entraña, cada plato es
         preparado con la atención y el cuidado que merece. Acompañamos cada
@@ -77,6 +142,13 @@
         brindar un ambiente cómodo y acogedor para nuestros clientes, haciendo
         que su experiencia sea memorable.
       </p>
+      <div class="reservation-button-home">
+        <a href="./contact.html">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Reserve mesa ahora
+          </button>
+        </a>
+      </div>
       <p class="lead paragraph_introduction">
         En resumen, si está buscando una auténtica experiencia gastronómica
         uruguaya, no busque más allá de la <strong>Cocina Charrua</strong>. ¡Lo
